@@ -1,0 +1,41 @@
+Titre: definirEnchainement
+
+Acteur: Auteur
+
+Hypothèse: aucune
+
+Pré: Un livre a été créé (cf use case créerAventure) Il existe au moins deux
+     sections (cf use case definirSection).
+
+Post: Un nouvel enchainement a été defini. Il est visible dans l'interface
+      graphique comme un arc liant la source à la cible.
+
+Scénario:
+  1. L'auteur sélectionne une section dans l'interface graphique (la source)
+  2. L'auteur choisit l'option "DéfinirEnchainement"
+  3. Le système affiche la page de description d'un enchainement comportant
+     une zone de saisie de texte et une liste déroulante des sections déjà
+     existantes
+  4. L'auteur saisit le texte de l'enchainement et selectionne dans la liste
+     la section cible de l'enchainement
+  5. L'auteur valide
+  6. Le système enregistre les informations et affiche une confirmation
+
+Alternatives A1: spécifier conditions
+	       En SN4, l'auteur peut sélectionner l'action
+	       "Editer conditions"
+	       A1.1 le système affiche la liste des objets définis dans cette
+		    aventure et en surbrillance ceux qui sont déjà attachés à
+		    cet enchainement
+	       A1.2 L'auteur en sélectionne ou désélectionne un ou plusieurs et
+		    valide
+	       A1.3 Le système enregistre la nouvelle sélection, retour en SN4 
+
+	     A2: Problème de saisie
+	       En SN6, si la source et la cible de l'enchainement sont la même
+	       section, le système un message indiquant la nature du problème.
+	       Retour en SN4
+
+Exception E1: Annulation utilisateur
+	     En SN3 ou SN4 ou SN5 l'utilisateur peut annuler, retour à
+	     l'interface principale

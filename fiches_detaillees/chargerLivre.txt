@@ -1,0 +1,20 @@
+Titre: chargerLivre
+
+Acteur: Auteur
+
+Hypothèse: aucune
+
+Pré: Le livre a précédemment été sauvegardé
+
+Post: Le livre a été chargé et s'ouvre sur son graphe complet
+
+Scénario:
+  1. L'auteur choisit l'option "Charger Livre"
+  2. Le système ouvre l'Explorateur de fichiers
+  3. L'auteur sélectionne l'aventure qu'il souhaite éditer
+  4. L'auteur valide
+  5. Le système enregistre les informations et affiche une confirmation
+
+Exception E1: Annulation utilisateur
+	     En SN3 ou SN4 l'utilisateur peut annuler, retour à l'interface
+             principale

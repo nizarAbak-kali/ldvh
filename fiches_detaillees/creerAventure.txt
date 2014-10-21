@@ -1,0 +1,30 @@
+Titre: creerAventure
+
+Acteur: Auteur
+
+Hypothèse: aucune
+
+Pré: aucune
+
+Post: Un nouveau livre a été créé
+
+Scénario:
+  1. L'auteur choisit l'option "Créer Aventure"
+  2. Le système affiche la page de description d'une aventure comportant une
+     zone de saisie de texte.
+  3. L'auteur saisit le titre de l'aventure
+  4. Le système vérifie que l'aventure n'existe pas déjà dans le répertoire de
+     travail de l'application
+  5. Le système affiche une confirmation d'unicité du nom de l'aventure en
+     cours de création
+  6. L'auteur valide
+  7. Le système enregistre les informations et affiche une confirmation
+
+Alternative A1: Le titre n'est pas unique (en SN4)
+  A1.1 Le système affiche un message utilisateur le notifiant de la non-unicité
+       du titre
+  A1.2 Retour en SN3
+
+Exception E1: Annulation utilisateur
+  En SN2 ou SN3 ou SN6 l'utilisateur peut annuler, retour à l'interface
+  principale  

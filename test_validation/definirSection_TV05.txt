@@ -1,0 +1,21 @@
+TV05: Test nominal section S2
+
+Contexte: L'aventure TEST1 a été créée (TV03) ou chargée (TV02)
+
+Entrées: texte: "Après toutes ces activités, il est fort naturel qu'un besoin
+		 pressant se fasse sentir à un moment ou un autre. Eh bien, ce
+		 moment est venu ... Un sanglier massif et hirsute te jauge ...
+		 Tu fais face et te prépare à te défendre. Non mais ..."
+
+Scénario:
+  1. L'auteur sélectionne l'action "ajouter section"
+  2. Il saisit le texte "Après toutes ces activités, il est fort naturel qu'un
+     besoin pressant se fasse sentir à un moment ou un autre. Eh bien, ce 
+     moment est venu ... Un sanglier massif et hirsute te jauge ... Tu fais face et te prépare à te défendre. Non mais ..."
+  3. Il valide
+
+Résulat attendu: le système affiche une confirmation et créé une section
+
+Moyen de Vérification: visuel pour la confirmation, l'enchainement doit être
+                       visible comme un noeud du graphe dans l'interface
+                       graphique
