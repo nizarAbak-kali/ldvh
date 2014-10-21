@@ -1,0 +1,15 @@
+TV07: Test nominal de generation d'une version imprimable du livre 
+
+Contexte: L'aventure TEST1 a été créée (TV03).
+		  Des sections et des enchainements ont été créésTV05 et TV06)
+
+Entrées: Nom de l'aventure : "TEST1"
+Scénario:
+  1. L'auteur sélectionne l'option "Génération Version Imprimable"
+  2. L'auteur saisit le nom de l'aventure "TEST1"
+  3. L'auteur valide 
+  
+Résultat attendu: le système affiche une confirmation et créé une version imprimable
+
+Moyen de Vérification: Visuel pour la confirmation et pour l'affichage de la version imprimable
+

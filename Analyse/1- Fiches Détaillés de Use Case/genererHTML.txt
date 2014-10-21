@@ -1,0 +1,19 @@
+Titre: genererHTML
+
+Acteur: Auteur
+
+Hypothèse: aucune
+
+Pré: Le livre précédemment sauvegardé ou créé a été chargé (Le livre doit comporter au minimum 2 sections et un enchainement)
+
+Post: La version HTMl du livre a été générée.
+
+Scénario:
+  1. L'auteur choisit l'option "Générer HTML"
+  2. Le système fait appel à la classe s'occupant de la génération d'une version HTML en lui fournissant l'emplacement du livre récupéré par lui même.
+  3. L'auteur valide
+  4. Le système génére la version HTML du livre.
+
+Exception E1: Annulation utilisateur
+	      En SN1 ou SN3 l'utilisateur peut annuler, retour à l'interface  
+              principale
