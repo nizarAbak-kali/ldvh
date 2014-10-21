@@ -1,0 +1,18 @@
+TV04: Test nominal section S1
+
+Contexte: L'aventure TEST1 a été créée (TV03) ou chargée (TV02)
+
+Entrées: texte: "Un château fort, édifié par nos ancêtres ... Tu es pris,
+		 soudain, d'un besoin pressant."
+
+Scénario:
+  1. L'auteur sélectionne l'action "ajouter section"
+  2. Il saisit le texte "Un château fort, édifié par nos ancêtres ... Tu es
+     pris, soudain, d'un besoin pressant."
+  3. Il valide
+
+Résulat attendu: le système affiche une confirmation et créé une section
+
+Moyen de Vérification: visuel pour la confirmation, l'enchainement doit être
+                       visible comme un noeud du graphe dans
+		       l'interface graphique

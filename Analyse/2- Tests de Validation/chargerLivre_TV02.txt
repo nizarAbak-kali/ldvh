@@ -1,0 +1,14 @@
+TV02: Test nominal livre
+
+Contexte: le livre a précédemment été sauvegardé
+
+Entrée: titre: "TEST1"
+
+Scénario:
+  1. L'auteur sélectionne l'action "charger livre"
+  2. Il choisit l'aventure qu'il souhaite charger
+  3. Il valide
+
+Résultat attendu: le système charge le livre et affiche son graphe complet
+
+Moyen de Vérification: visuel

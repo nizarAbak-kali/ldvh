@@ -1,0 +1,14 @@
+TV03: Test nominal aventure
+
+Contexte: aucun
+
+Entrée: titre: "TEST1"
+
+Scénario:
+  1. L'auteur choisit l'action "créer aventure"
+  2. Il saisit le titre "TEST1"
+  3. Il valide
+
+Résultat attendu: le système affiche une confirmation et créé une aventure
+
+Moyen de Vérification: visuel pour la confirmation

@@ -1,0 +1,18 @@
+TV06: Test nominal enchainement
+
+Contexte: L'aventure TEST1 a été créée (TV03). Les sections S1 et S2 ont été
+          créées (TV04 et TV05)
+
+Entrées: source S1, destination S2, "CléS1-S2"
+Scénario:
+  1. L'auteur sélectionne la section S1
+  2. Il sélectionne l'action "ajouter enchainement"
+  3. Il positionne le sélecteur de destination sur S2
+  4. Il saisit le texte "CléS1-S2"
+  5. Il valide
+
+Résulat attendu: le système affiche une confirmation et créé un enchainement
+
+Moyen de Vérification: visuel pour la confirmation, l'enchainement doit être
+                       visible comme un arc du graphe liant S1 et S2 dans
+		       l'interface graphique

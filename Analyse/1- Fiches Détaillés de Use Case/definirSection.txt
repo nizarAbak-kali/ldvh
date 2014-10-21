@@ -1,0 +1,23 @@
+Titre: DéfinirSection
+
+Acteur: Auteur
+
+Hypothèse: aucune
+
+Pré: Un livre a été créé (cf use case créerAventure) et chargé (cf use case
+chargerLivre).
+
+Post: Une nouvelle section a été définie. Elle est visible dans l'interface
+graphique comme un noeud.
+
+Scénario:
+  1. L'auteur choisit l'option "Définir Section"
+  2. Le système affiche la page de description d'une section comportant une
+     zone de saisie de texte
+  3. L'auteur saisit le texte de la section
+  4. L'auteur valide
+  5. Le système enregistre les informations et affiche une confirmation
+
+Exception E1: Annulation utilisateur
+	     En SN2 ou SN3 ou SN4 l'utilisateur peut annuler, retour à
+	     l'interface principale
