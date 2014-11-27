@@ -1,0 +1,79 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Documentation UML Analyse_UseCase</title>
+<meta name="generator" content="IBM Rational Model Publisher">
+<meta name="description" content="Sommaire pour DefinirSection">
+<link rel="stylesheet" type="text/css" href="WebPublish.css">
+</head>
+<body>
+<table class="NavigationBar">
+<tr>
+<td>
+<table class="NavBarLeft">
+<tr>
+<td class="NavBarMainLink"><a target="_top" href="../index.html">Présentation</a></td><td class="NavBarMainLink"><a href="_V.i.uCEFO3E.eS.k.z.fMJ.w.r.yT.f.g-top-summary.html">Haut</a></td><td class="NavBarMainLink"><a href="_.k.c6J.cFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html">Package</a></td><td class="NavBarMainHighlight">Elément</td>
+</tr>
+</table>
+</td><td class="NavBarRight">Documentation UML Analyse_UseCase</td>
+</tr>
+</table>
+<table>
+<tr class="NavBarBookMarks">
+<td class="BookMarkSections"><span class="BookMarkElements">Récapitulatif :</span><span class="BookMarkElements"><a href="#propertiesTable" title="Propriétés">Propriétés</a></span></td><td class="BookMarkSections"></td>
+</tr>
+</table>
+<hr>
+<span class="PackageFullyQualifiedName">LDVH</span>
+<br>
+<span class="ElementTitle">Cas d'utilisation DefinirSection</span>
+<p>
+<a name="documentationSection"></a><p><u><span style="color:#ff0000;"><b><span style="font-size:20pt;">Fiche Détaillée:</span></b></span></u></p><p><u><span style="font-size:11pt;color:#ff0000;"><b>Titre: DéfinirSection</b></span></u></p><p>Acteur: Auteur</p><p>Hypothèse: aucune</p><p>Pré: Un livre a été créé (cf use case créerAventure) et chargé (cf use case</p><p>chargerLivre).</p><p>Post: Une nouvelle section a été définie. Elle est visible dans l'interface</p><p>graphique comme un noeud.</p><p>Scénario:</p><p>1. L'auteur choisit l'option "Définir Section"</p><p>2. Le système affiche la page de description d'une section comportant une</p><p>zone de saisie de texte</p><p>3. L'auteur saisit le texte de la section</p><p>4. L'auteur valide</p><p>5. Le système enregistre les informations et affiche une confirmation</p><p>Exception E1: Annulation utilisateur</p><p>En SN2 ou SN3 ou SN4 l'utilisateur peut annuler, retour à</p><p>l'interface principale</p><p>Titre: genererHTML</p><p>Acteur: Auteur</p><p>Hypothèse: aucune</p><p>Pré: Le livre précédemment sauvegardé ou créé a été chargé (Le livre doit comporter au minimum 2 sections et un enchainement)</p><p>Post: La version HTMl du livre a été générée.</p><p>Scénario:</p><p>1. L'auteur choisit l'option "Générer HTML"</p><p>2. Le système fait appel à la classe s'occupant de la génération d'une version HTML en lui fournissant l'emplacement du livre récupéré par lui même.</p><p>3. L'auteur valide</p><p>4. Le système génére la version HTML du livre.</p><p>Exception E1: Annulation utilisateur</p><p>En SN1 ou SN3 l'utilisateur peut annuler, retour à l'interface</p><p>principale</p><p><b><span style="font-size:20pt;color:#1e90ff;"><u>Test de validation :</u></span></b></p><p><b><span style="font-size:11pt;color:#1e90ff;"><u>TV04: Test nominal section S1</u></span></b></p><p>Contexte: L'aventure TEST1 a été créée (TV03) ou chargée (TV02)</p><p>Entrées: texte: "Un château fort, édifié par nos ancêtres ... Tu es pris,</p><p>                 soudain, d'un besoin pressant."</p><p>Scénario:</p><p>  1. L'auteur sélectionne l'action "ajouter section"</p><p>  2. Il saisit le texte "Un château fort, édifié par nos ancêtres ... Tu es</p><p>     pris, soudain, d'un besoin pressant."</p><p>  3. Il valide</p><p>Résulat attendu: le système affiche une confirmation et créé une section</p><p>Moyen de Vérification: visuel pour la confirmation, l'enchainement doit être</p><p>                       visible comme un noeud du graphe dans</p><p>                       l'interface graphique</p><p><u><b><span style="color:#1e90ff;">TV05: Test nominal section S2</span></b></u></p><p>Contexte: L'aventure TEST1 a été c<span style="font-family:DejaVu Sans Mono;"></span>réée (TV03) ou chargée (TV02)</p><p>Entrées: texte: "Après toutes ces activités, il est fort naturel qu'un besoin</p><p>                 pressant se fasse sentir à un moment ou un autre. Eh bien, ce</p><p>                 moment est venu ... Un sanglier massif et hirsute te jauge ...</p><p>                 Tu fais face et te prépare à te défendre. Non mais ..."</p><p>Scénario:</p><p>  1. L'auteur sélectionne l'action "ajouter section"</p><p>  2. Il saisit le texte "Après toutes ces activités, il est fort naturel qu'un</p><p>     besoin pressant se fasse sentir à un moment ou un autre. Eh bien, ce </p><p>     moment est venu ... Un sanglier massif et hirsute te jauge ... Tu fais face et te prépare à te défendre. Non mais ..."</p><p>  3. Il valide</p><p>Résulat attendu: le système affiche une confirmation et créé une section</p><p>Moyen de Vérification: visuel pour la confirmation, l'enchainement doit être</p><p>                       visible comme un noeud du graphe dans l'interface</p><p>                       graphique</p><p></p><p></p></p>
+<br>
+<a name="propertiesTable">
+<p class="LargeTitle">Propriétés :</p>
+</a>
+<table class="PropertiesTable" cellpadding="4" cellspacing="0" border="1">
+<tr>
+<td class="PropertyName"><b>Is Abstract</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Leaf</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name</b></td><td class="PropertyValue">DefinirSection</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Namespace</b></td><td class="PropertyValue"><a href="_.k.c6J.cFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html">«subsystem» LDVH</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owner</b></td><td class="PropertyValue"><a href="_.k.c6J.cFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html">«subsystem» LDVH</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Qualified Name</b></td><td class="PropertyValue">Analyse_UseCase::LDVH::DefinirSection</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Visibility</b></td><td class="PropertyValue">Public</td>
+</tr>
+</table>
+<hr>
+<br>
+<table class="NavigationBar">
+<tr>
+<td>
+<table class="NavBarLeft">
+<tr>
+<td class="NavBarMainLink"><a target="_top" href="../index.html">Présentation</a></td><td class="NavBarMainLink"><a href="_V.i.uCEFO3E.eS.k.z.fMJ.w.r.yT.f.g-top-summary.html">Haut</a></td><td class="NavBarMainLink"><a href="_.k.c6J.cFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html">Package</a></td><td class="NavBarMainHighlight">Elément</td>
+</tr>
+</table>
+</td><td class="NavBarRight">Documentation UML Analyse_UseCase</td>
+</tr>
+</table>
+<table>
+<tr class="NavBarBookMarks">
+<td class="BookMarkSections"><span class="BookMarkElements">Récapitulatif :</span><span class="BookMarkElements"><a href="#propertiesTable" title="Propriétés">Propriétés</a></span></td><td class="BookMarkSections"></td>
+</tr>
+</table>
+</body>
+</html>

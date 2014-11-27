@@ -1,0 +1,79 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Documentation UML Analyse_UseCase</title>
+<meta name="generator" content="IBM Rational Model Publisher">
+<meta name="description" content="Sommaire pour DefinirEnchainement">
+<link rel="stylesheet" type="text/css" href="WebPublish.css">
+</head>
+<body>
+<table class="NavigationBar">
+<tr>
+<td>
+<table class="NavBarLeft">
+<tr>
+<td class="NavBarMainLink"><a target="_top" href="../index.html">Présentation</a></td><td class="NavBarMainLink"><a href="_V.i.uCEFO3E.eS.k.z.fMJ.w.r.yT.f.g-top-summary.html">Haut</a></td><td class="NavBarMainLink"><a href="_.k.c6J.cFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html">Package</a></td><td class="NavBarMainHighlight">Elément</td>
+</tr>
+</table>
+</td><td class="NavBarRight">Documentation UML Analyse_UseCase</td>
+</tr>
+</table>
+<table>
+<tr class="NavBarBookMarks">
+<td class="BookMarkSections"><span class="BookMarkElements">Récapitulatif :</span><span class="BookMarkElements"><a href="#propertiesTable" title="Propriétés">Propriétés</a></span></td><td class="BookMarkSections"></td>
+</tr>
+</table>
+<hr>
+<span class="PackageFullyQualifiedName">LDVH</span>
+<br>
+<span class="ElementTitle">Cas d'utilisation DefinirEnchainement</span>
+<p>
+<a name="documentationSection"></a><p><u><span style="color:#ff0000;"><b><span style="font-size:20pt;">Fiche Détaillée:</span></b></span></u></p><p><span style="color:#ff0000;"><u><b>Titre: definirEnchainement</b></u></span></p><p>Acteur: Auteur</p><p>Hypothèse: aucune</p><p>Pré: Un livre a été créé (cf use case créerAventure) Il existe au moins deux</p><p>sections (cf use case definirSection).</p><p>Post: Un nouvel enchainement a été defini. Il est visible dans l'interface</p><p>graphique comme un arc liant la source à la cible.</p><p>Scénario:</p><p>1. L'auteur sélectionne une section dans l'interface graphique (la source)</p><p>2. L'auteur choisit l'option "DéfinirEnchainement"</p><p>3. Le système affiche la page de description d'un enchainement comportant</p><p>une zone de saisie de texte et une liste déroulante des sections déjà</p><p>existantes</p><p>4. L'auteur saisit le texte de l'enchainement et selectionne dans la liste</p><p>la section cible de l'enchainement</p><p>5. L'auteur valide</p><p>6. Le système enregistre les informations et affiche une confirmation</p><p>Alternatives A1: spécifier conditions</p><p>En SN4, l'auteur peut sélectionner l'action</p><p>"Editer conditions"</p><p>A1.1 le système affiche la liste des objets définis dans cette</p><p>aventure et en surbrillance ceux qui sont déjà attachés à</p><p>cet enchainement</p><p>A1.2 L'auteur en sélectionne ou désélectionne un ou plusieurs et</p><p>valide</p><p>A1.3 Le système enregistre la nouvelle sélection, retour en SN4</p><p>A2: Problème de saisie</p><p>En SN6, si la source et la cible de l'enchainement sont la même</p><p>section, le système un message indiquant la nature du problème.</p><p>Retour en SN4</p><p>Exception E1: Annulation utilisateur</p><p>En SN3 ou SN4 ou SN5 l'utilisateur peut annuler, retour à</p><p>l'interface principale</p><p></p><p><b><span style="font-size:20pt;color:#1e90ff;"><u>Test de validation :</u></span></b></p><p><b><span style="font-size:20pt;color:#1e90ff;"><u>TV06: Test nominal enchainement</u></span></b></p><p>Contexte: L'aventure TEST1 a été créée (TV03). Les sections S1 et S2 ont été</p><p>          créées (TV04 et TV05)</p><p>Entrées: source S1, destination S2, "CléS1-S2"</p><p>Scénario:</p><p>  1. L'auteur sélectionne la section S1</p><p>  2. Il sélectionne l'action "ajouter enchainement"</p><p>  3. Il positionne le sélecteur de destination sur S2</p><p>  4. Il saisit le texte "CléS1-S2"</p><p>  5. Il valide</p><p>Résulat attendu: le système affiche une confirmation et créé un enchainement</p><p>Moyen de Vérification: visuel pour la confirmation, l'enchainement doit être</p><p>                       visible comme un arc du graphe liant S1 et S2 dans</p><p>                       l'interface graphique</p><p></p></p>
+<br>
+<a name="propertiesTable">
+<p class="LargeTitle">Propriétés :</p>
+</a>
+<table class="PropertiesTable" cellpadding="4" cellspacing="0" border="1">
+<tr>
+<td class="PropertyName"><b>Is Abstract</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Is Leaf</b></td><td class="PropertyValue">false</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Name</b></td><td class="PropertyValue">DefinirEnchainement</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Namespace</b></td><td class="PropertyValue"><a href="_.k.c6J.cFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html">«subsystem» LDVH</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Owner</b></td><td class="PropertyValue"><a href="_.k.c6J.cFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html">«subsystem» LDVH</a></td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Qualified Name</b></td><td class="PropertyValue">Analyse_UseCase::LDVH::DefinirEnchainement</td>
+</tr>
+<tr>
+<td class="PropertyName"><b>Visibility</b></td><td class="PropertyValue">Public</td>
+</tr>
+</table>
+<hr>
+<br>
+<table class="NavigationBar">
+<tr>
+<td>
+<table class="NavBarLeft">
+<tr>
+<td class="NavBarMainLink"><a target="_top" href="../index.html">Présentation</a></td><td class="NavBarMainLink"><a href="_V.i.uCEFO3E.eS.k.z.fMJ.w.r.yT.f.g-top-summary.html">Haut</a></td><td class="NavBarMainLink"><a href="_.k.c6J.cFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html">Package</a></td><td class="NavBarMainHighlight">Elément</td>
+</tr>
+</table>
+</td><td class="NavBarRight">Documentation UML Analyse_UseCase</td>
+</tr>
+</table>
+<table>
+<tr class="NavBarBookMarks">
+<td class="BookMarkSections"><span class="BookMarkElements">Récapitulatif :</span><span class="BookMarkElements"><a href="#propertiesTable" title="Propriétés">Propriétés</a></span></td><td class="BookMarkSections"></td>
+</tr>
+</table>
+</body>
+</html>

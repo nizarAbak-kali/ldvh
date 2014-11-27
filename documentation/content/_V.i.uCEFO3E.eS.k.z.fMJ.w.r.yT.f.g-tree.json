@@ -1,0 +1,290 @@
+
+{ 
+    identifier: 'id',
+    label: 'title',
+    items: [
+        {
+            title: 'Diagrammes',
+            top: true,
+            id: '_DIAGRAMS_ROOT_NODE_',
+            icon: 'icon1865519568',
+            children: [
+                {_reference: '_V.i.uCE.lO3E.eS.k.z.fMJ.w.r.yT.f.g' }
+            ]
+        },
+        {
+            title: 'Analyse_UseCase::DiagrammeUseCase',
+            id: '_V.i.uCE.lO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_V.i.uCE.lO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html',
+            icon: 'icon1745977104'
+        },
+	
+        {
+            title: 'Modèles',
+            top: true,
+            id: '_MODELS_ROOT_NODE_',
+            icon: 'icon1865519568',
+            children: [
+                {_reference: '_V.i.uCEFO3E.eS.k.z.fMJ.w.r.yT.f.g' }
+            ]
+
+        },
+        {
+            title: 'Analyse_UseCase',
+            id: '_V.i.uCEFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_V.i.uCEFO3E.eS.k.z.fMJ.w.r.yT.f.g-top-summary.html',
+            icon: 'icon1865519568',
+            children: [
+                {_reference: '_Z.oL.b.kFO3E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '_.k.c6J.cFO3E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '_-.dK.mUFO3E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '__.o.e.i4FO3E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '__-5.e0FO3E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '_A_OTYFO4E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '_B.t.d5.cFO4E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '_7IJ0.gFPGE.eS.k.z.fMJ.w.r.yT.f.g' }
+            ]
+        }
+		,
+        {
+            title: 'Auteur',
+            id: '_Z.oL.b.kFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_Z.oL.b.kFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html',
+            icon: 'icon1949955936'
+        }
+		,
+        {
+            title: 'LDVH',
+            id: '_.k.c6J.cFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_.k.c6J.cFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html',
+            icon: 'icon2073514384',
+            children: [
+                {_reference: '_.oH.x4.sFO3E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '_.o.n1R.wFO3E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '_.qLT2.sFO3E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '_.q8.w.h.wFO3E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '_.r.f.p.z.cFO3E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '_.l0P.yAFPGE.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '_.w6.oRUF.k8E.eS1M.eJ.p.gFFQ.aQ' },
+                {_reference: '__.t4_YF.k-E.eS1M.eJ.p.gFFQ.aQ' },
+                {_reference: '_KE5P.cF.k_E.eS1M.eJ.p.gFFQ.aQ' }
+            ]
+        }
+		,
+        {
+            title: 'DefinirSection',
+            id: '_.oH.x4.sFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_.oH.x4.sFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html',
+            icon: 'icon1744970192'
+        }
+		,
+        {
+            title: 'CreerAventure',
+            id: '_.o.n1R.wFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_.o.n1R.wFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html',
+            icon: 'icon1744970192'
+        }
+		,
+        {
+            title: 'DefinirEnchainement',
+            id: '_.qLT2.sFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_.qLT2.sFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html',
+            icon: 'icon1744970192'
+        }
+		,
+        {
+            title: 'GenererHTML',
+            id: '_.q8.w.h.wFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_.q8.w.h.wFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html',
+            icon: 'icon1744970192'
+        }
+		,
+        {
+            title: 'ChargerLivre',
+            id: '_.r.f.p.z.cFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_.r.f.p.z.cFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html',
+            icon: 'icon1744970192'
+        }
+		,
+        {
+            title: 'GenererVersionImprimable',
+            id: '_.l0P.yAFPGE.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_.l0P.yAFPGE.eS.k.z.fMJ.w.r.yT.f.g-content.html',
+            icon: 'icon1744970192'
+        }
+		,
+        {
+            title: 'creeLivre()',
+            id: '_.w6.oRUF.k8E.eS1M.eJ.p.gFFQ.aQ',
+            object: '_.k.c6J.cFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html#_.w6.oRUF.k8E.eS1M.eJ.p.gFFQ.aQ',
+            icon: 'icon1746688624'
+        }
+		,
+        {
+            title: 'Valide',
+            id: '__.t4_YF.k-E.eS1M.eJ.p.gFFQ.aQ',
+            object: '_.k.c6J.cFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html#__.t4_YF.k-E.eS1M.eJ.p.gFFQ.aQ',
+            icon: 'icon1746688624'
+        }
+		,
+        {
+            title: 'Saisi_Titre(titre_ID : "la lune")',
+            id: '_KE5P.cF.k_E.eS1M.eJ.p.gFFQ.aQ',
+            object: '_.k.c6J.cFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html#_KE5P.cF.k_E.eS1M.eJ.p.gFFQ.aQ',
+            icon: 'icon1746688624'
+        }
+		,
+        {
+            title: '',
+            id: '_-.dK.mUFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_-.dK.mUFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html',
+            icon: 'icon1746660512',
+            children: [
+                {_reference: '_-.dOQ.sFO3E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '_-.dT.wQFO3E.eS.k.z.fMJ.w.r.yT.f.g' }
+            ]
+        }
+		,
+        {
+            title: 'definirSection',
+            id: '_-.dOQ.sFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_-.dK.mUFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html#_-.dOQ.sFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            icon: 'icon1744974400'
+        }
+		,
+        {
+            title: 'actor1',
+            id: '_-.dT.wQFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_-.dK.mUFO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html#_-.dT.wQFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            icon: 'icon1744974400'
+        }
+		,
+        {
+            title: '',
+            id: '__.o.e.i4FO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '__.o.e.i4FO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html',
+            icon: 'icon1746660512',
+            children: [
+                {_reference: '__.o.f.xAFO3E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '__.o.iNQFO3E.eS.k.z.fMJ.w.r.yT.f.g' }
+            ]
+        }
+		,
+        {
+            title: 'creerAventure',
+            id: '__.o.f.xAFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '__.o.e.i4FO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html#__.o.f.xAFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            icon: 'icon1744974400'
+        }
+		,
+        {
+            title: 'actor1',
+            id: '__.o.iNQFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '__.o.e.i4FO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html#__.o.iNQFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            icon: 'icon1744974400'
+        }
+		,
+        {
+            title: '',
+            id: '__-5.e0FO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '__-5.e0FO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html',
+            icon: 'icon1746660512',
+            children: [
+                {_reference: '__-6.s8FO3E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '__-9.wQFO3E.eS.k.z.fMJ.w.r.yT.f.g' }
+            ]
+        }
+		,
+        {
+            title: 'definirEnchainement',
+            id: '__-6.s8FO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '__-5.e0FO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html#__-6.s8FO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            icon: 'icon1744974400'
+        }
+		,
+        {
+            title: 'actor1',
+            id: '__-9.wQFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '__-5.e0FO3E.eS.k.z.fMJ.w.r.yT.f.g-content.html#__-9.wQFO3E.eS.k.z.fMJ.w.r.yT.f.g',
+            icon: 'icon1744974400'
+        }
+		,
+        {
+            title: '',
+            id: '_A_OTYFO4E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_A_OTYFO4E.eS.k.z.fMJ.w.r.yT.f.g-content.html',
+            icon: 'icon1746660512',
+            children: [
+                {_reference: '_A_O6.cFO4E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '_A_RW.sFO4E.eS.k.z.fMJ.w.r.yT.f.g' }
+            ]
+        }
+		,
+        {
+            title: 'genererHTML',
+            id: '_A_O6.cFO4E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_A_OTYFO4E.eS.k.z.fMJ.w.r.yT.f.g-content.html#_A_O6.cFO4E.eS.k.z.fMJ.w.r.yT.f.g',
+            icon: 'icon1744974400'
+        }
+		,
+        {
+            title: 'actor1',
+            id: '_A_RW.sFO4E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_A_OTYFO4E.eS.k.z.fMJ.w.r.yT.f.g-content.html#_A_RW.sFO4E.eS.k.z.fMJ.w.r.yT.f.g',
+            icon: 'icon1744974400'
+        }
+		,
+        {
+            title: '',
+            id: '_B.t.d5.cFO4E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_B.t.d5.cFO4E.eS.k.z.fMJ.w.r.yT.f.g-content.html',
+            icon: 'icon1746660512',
+            children: [
+                {_reference: '_B.t.fH.kFO4E.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '_B.t.h.j0FO4E.eS.k.z.fMJ.w.r.yT.f.g' }
+            ]
+        }
+		,
+        {
+            title: 'editerLivre',
+            id: '_B.t.fH.kFO4E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_B.t.d5.cFO4E.eS.k.z.fMJ.w.r.yT.f.g-content.html#_B.t.fH.kFO4E.eS.k.z.fMJ.w.r.yT.f.g',
+            icon: 'icon1744974400'
+        }
+		,
+        {
+            title: 'actor1',
+            id: '_B.t.h.j0FO4E.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_B.t.d5.cFO4E.eS.k.z.fMJ.w.r.yT.f.g-content.html#_B.t.h.j0FO4E.eS.k.z.fMJ.w.r.yT.f.g',
+            icon: 'icon1744974400'
+        }
+		,
+        {
+            title: '',
+            id: '_7IJ0.gFPGE.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_7IJ0.gFPGE.eS.k.z.fMJ.w.r.yT.f.g-content.html',
+            icon: 'icon1746660512',
+            children: [
+                {_reference: '_7IK.b.kFPGE.eS.k.z.fMJ.w.r.yT.f.g' },
+                {_reference: '_7IMQ.wFPGE.eS.k.z.fMJ.w.r.yT.f.g' }
+            ]
+        }
+		,
+        {
+            title: 'genererVersionImprimable',
+            id: '_7IK.b.kFPGE.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_7IJ0.gFPGE.eS.k.z.fMJ.w.r.yT.f.g-content.html#_7IK.b.kFPGE.eS.k.z.fMJ.w.r.yT.f.g',
+            icon: 'icon1744974400'
+        }
+		,
+        {
+            title: 'auteur',
+            id: '_7IMQ.wFPGE.eS.k.z.fMJ.w.r.yT.f.g',
+            object: '_7IJ0.gFPGE.eS.k.z.fMJ.w.r.yT.f.g-content.html#_7IMQ.wFPGE.eS.k.z.fMJ.w.r.yT.f.g',
+            icon: 'icon1744974400'
+        }
+		
+    ]
+}
+
+		

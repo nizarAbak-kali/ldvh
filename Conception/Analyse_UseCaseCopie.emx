@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
+  <uml:Package xmi:id="_OPklSXV2EeS_ldiaxIto1g" name="Analyse_UseCaseCopie">
+    <eAnnotations xmi:id="_OPklSnV2EeS_ldiaxIto1g" source="uml2.diagrams" references="_OPklS3V2EeS_ldiaxIto1g">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_OPklS3V2EeS_ldiaxIto1g" type="Usecase" name="DiagrammeUseCase">
+        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_OPklTHV2EeS_ldiaxIto1g" element="_OPlL-3V2EeS_ldiaxIto1g" fontName="Cantarell" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPklTXV2EeS_ldiaxIto1g" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_OPklTnV2EeS_ldiaxIto1g" width="1455" height="2381"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPklT3V2EeS_ldiaxIto1g" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPklUHV2EeS_ldiaxIto1g" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPklUXV2EeS_ldiaxIto1g" type="Parent"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPklUnV2EeS_ldiaxIto1g" x="1716" y="3696"/>
+        </children>
+        <children xmi:type="umlnotation:UMLComponent" xmi:id="_OPklU3V2EeS_ldiaxIto1g" element="_OPlL_HV2EeS_ldiaxIto1g" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPklVHV2EeS_ldiaxIto1g" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_OPklVXV2EeS_ldiaxIto1g" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPklVnV2EeS_ldiaxIto1g" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPklV3V2EeS_ldiaxIto1g" type="Kind"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPklWHV2EeS_ldiaxIto1g" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPklWXV2EeS_ldiaxIto1g" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_OPklWnV2EeS_ldiaxIto1g" visible="false" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_OPklW3V2EeS_ldiaxIto1g" visible="false" type="OperationCompartment"/>
+          <children xmi:type="notation:ListCompartment" xmi:id="_OPklXHV2EeS_ldiaxIto1g" visible="false" type="RealizationListCompartment"/>
+          <children xmi:type="notation:ListCompartment" xmi:id="_OPlLEHV2EeS_ldiaxIto1g" visible="false" type="RequiredInterfaceListCompartment"/>
+          <children xmi:type="notation:ListCompartment" xmi:id="_OPlLEXV2EeS_ldiaxIto1g" visible="false" type="ProvidedInterfaceListCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_OPlLEnV2EeS_ldiaxIto1g" type="UseCaseShapeCompartment">
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_OPlLE3V2EeS_ldiaxIto1g" element="_OPlL_nV2EeS_ldiaxIto1g" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_OPlLFHV2EeS_ldiaxIto1g" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_OPlLFXV2EeS_ldiaxIto1g" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLFnV2EeS_ldiaxIto1g" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLF3V2EeS_ldiaxIto1g" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLGHV2EeS_ldiaxIto1g" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_OPlLGXV2EeS_ldiaxIto1g" visible="false" type="Extension_Points"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPlLGnV2EeS_ldiaxIto1g" x="6758" y="80"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_OPlLG3V2EeS_ldiaxIto1g" element="_OPlMAHV2EeS_ldiaxIto1g" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_OPlLHHV2EeS_ldiaxIto1g" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_OPlLHXV2EeS_ldiaxIto1g" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLHnV2EeS_ldiaxIto1g" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLH3V2EeS_ldiaxIto1g" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLIHV2EeS_ldiaxIto1g" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_OPlLIXV2EeS_ldiaxIto1g" visible="false" type="Extension_Points"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPlLInV2EeS_ldiaxIto1g" x="9478" y="2377"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_OPlLI3V2EeS_ldiaxIto1g" element="_OPlMAnV2EeS_ldiaxIto1g" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_OPlLJHV2EeS_ldiaxIto1g" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_OPlLJXV2EeS_ldiaxIto1g" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLJnV2EeS_ldiaxIto1g" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLJ3V2EeS_ldiaxIto1g" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLKHV2EeS_ldiaxIto1g" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_OPlLKXV2EeS_ldiaxIto1g" visible="false" type="Extension_Points"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPlLKnV2EeS_ldiaxIto1g" x="8788" y="8185"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_OPlLK3V2EeS_ldiaxIto1g" element="_OPlMBHV2EeS_ldiaxIto1g" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_OPlLLHV2EeS_ldiaxIto1g" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_OPlLLXV2EeS_ldiaxIto1g" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLLnV2EeS_ldiaxIto1g" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLL3V2EeS_ldiaxIto1g" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLMHV2EeS_ldiaxIto1g" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_OPlLMXV2EeS_ldiaxIto1g" visible="false" type="Extension_Points"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPlLMnV2EeS_ldiaxIto1g" x="3934" y="9769"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_OPlLM3V2EeS_ldiaxIto1g" element="_OPlMBnV2EeS_ldiaxIto1g" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_OPlLNHV2EeS_ldiaxIto1g" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_OPlLNXV2EeS_ldiaxIto1g" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLNnV2EeS_ldiaxIto1g" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLN3V2EeS_ldiaxIto1g" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLOHV2EeS_ldiaxIto1g" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_OPlLOXV2EeS_ldiaxIto1g" visible="false" type="Extension_Points"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPlLOnV2EeS_ldiaxIto1g" x="6178" y="12145"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_OPlLO3V2EeS_ldiaxIto1g" element="_OPlMCHV2EeS_ldiaxIto1g" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_OPlLPHV2EeS_ldiaxIto1g" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_OPlLPXV2EeS_ldiaxIto1g" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLPnV2EeS_ldiaxIto1g" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLP3V2EeS_ldiaxIto1g" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLQHV2EeS_ldiaxIto1g" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_OPlLQXV2EeS_ldiaxIto1g" visible="false" type="Extension_Points"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPlLQnV2EeS_ldiaxIto1g" x="8950" y="4568"/>
+            </children>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPlLQ3V2EeS_ldiaxIto1g" x="3564" y="528" width="14979" height="16349"/>
+        </children>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_OPlLRHV2EeS_ldiaxIto1g" element="_OPlMDXV2EeS_ldiaxIto1g" source="_OPklTHV2EeS_ldiaxIto1g" target="_OPlLE3V2EeS_ldiaxIto1g" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLRXV2EeS_ldiaxIto1g" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLRnV2EeS_ldiaxIto1g" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLR3V2EeS_ldiaxIto1g" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPlLSHV2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLSXV2EeS_ldiaxIto1g" visible="false" type="ToMultiplicityLabel" element="_OPlMEXV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLSnV2EeS_ldiaxIto1g" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLS3V2EeS_ldiaxIto1g" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLTHV2EeS_ldiaxIto1g" visible="false" type="ToRoleLabel" element="_OPlMEXV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLTXV2EeS_ldiaxIto1g" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLTnV2EeS_ldiaxIto1g" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLT3V2EeS_ldiaxIto1g" visible="false" type="FromMultiplicityLabel" element="_OPlMDnV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLUHV2EeS_ldiaxIto1g" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLUXV2EeS_ldiaxIto1g" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLUnV2EeS_ldiaxIto1g" visible="false" type="FromRoleLabel" element="_OPlMDnV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLU3V2EeS_ldiaxIto1g" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLVHV2EeS_ldiaxIto1g" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLVXV2EeS_ldiaxIto1g" type="ToQualifierLabel" element="_OPlMEXV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_OPlLVnV2EeS_ldiaxIto1g" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLV3V2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLWHV2EeS_ldiaxIto1g" type="FromQualifierLabel" element="_OPlMDnV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_OPlLWXV2EeS_ldiaxIto1g" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLWnV2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLW3V2EeS_ldiaxIto1g" type="ToConstraintLabel" element="_OPlMEXV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:ListCompartment" xmi:id="_OPlLXHV2EeS_ldiaxIto1g" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLXXV2EeS_ldiaxIto1g" y="1058"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLXnV2EeS_ldiaxIto1g" type="FromConstraintLabel" element="_OPlMDnV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:ListCompartment" xmi:id="_OPlLX3V2EeS_ldiaxIto1g" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLYHV2EeS_ldiaxIto1g" y="1058"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OPlLYXV2EeS_ldiaxIto1g" points="[-503, 97, -9210, 1794]$[-503, -1482, -9210, 215]$[3917, -1482, -4790, 215]$[3917, -1832, -4790, -135]$[7412, -1832, -1295, -135]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OPlLYnV2EeS_ldiaxIto1g" id="(0.7903225806451613,0.15875682486350273)"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_OPlLY3V2EeS_ldiaxIto1g" element="_OPlMFHV2EeS_ldiaxIto1g" source="_OPklTHV2EeS_ldiaxIto1g" target="_OPlLG3V2EeS_ldiaxIto1g" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLZHV2EeS_ldiaxIto1g" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLZXV2EeS_ldiaxIto1g" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLZnV2EeS_ldiaxIto1g" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPlLZ3V2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLaHV2EeS_ldiaxIto1g" visible="false" type="ToMultiplicityLabel" element="_OPlMGHV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLaXV2EeS_ldiaxIto1g" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLanV2EeS_ldiaxIto1g" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLa3V2EeS_ldiaxIto1g" visible="false" type="ToRoleLabel" element="_OPlMGHV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLbHV2EeS_ldiaxIto1g" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLbXV2EeS_ldiaxIto1g" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLbnV2EeS_ldiaxIto1g" visible="false" type="FromMultiplicityLabel" element="_OPlMFXV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLb3V2EeS_ldiaxIto1g" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLcHV2EeS_ldiaxIto1g" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLcXV2EeS_ldiaxIto1g" visible="false" type="FromRoleLabel" element="_OPlMFXV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLcnV2EeS_ldiaxIto1g" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLc3V2EeS_ldiaxIto1g" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLdHV2EeS_ldiaxIto1g" type="ToQualifierLabel" element="_OPlMGHV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_OPlLdXV2EeS_ldiaxIto1g" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLdnV2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLd3V2EeS_ldiaxIto1g" type="FromQualifierLabel" element="_OPlMFXV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_OPlLeHV2EeS_ldiaxIto1g" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLeXV2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLenV2EeS_ldiaxIto1g" type="ToConstraintLabel" element="_OPlMGHV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:ListCompartment" xmi:id="_OPlLe3V2EeS_ldiaxIto1g" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLfHV2EeS_ldiaxIto1g" y="1058"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLfXV2EeS_ldiaxIto1g" type="FromConstraintLabel" element="_OPlMFXV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:ListCompartment" xmi:id="_OPlLfnV2EeS_ldiaxIto1g" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLf3V2EeS_ldiaxIto1g" y="1058"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OPlLgHV2EeS_ldiaxIto1g" points="[245, 379, -8349, -887]$[8594, 379, 0, -887]$[8594, 631, 0, -635]"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_OPlLgXV2EeS_ldiaxIto1g" element="_OPlMG3V2EeS_ldiaxIto1g" source="_OPklTHV2EeS_ldiaxIto1g" target="_OPlLI3V2EeS_ldiaxIto1g" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLgnV2EeS_ldiaxIto1g" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLg3V2EeS_ldiaxIto1g" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLhHV2EeS_ldiaxIto1g" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPlLhXV2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLhnV2EeS_ldiaxIto1g" visible="false" type="ToMultiplicityLabel" element="_OPlMH3V2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLh3V2EeS_ldiaxIto1g" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLiHV2EeS_ldiaxIto1g" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLiXV2EeS_ldiaxIto1g" visible="false" type="ToRoleLabel" element="_OPlMH3V2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLinV2EeS_ldiaxIto1g" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLi3V2EeS_ldiaxIto1g" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLjHV2EeS_ldiaxIto1g" visible="false" type="FromMultiplicityLabel" element="_OPlMHHV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLjXV2EeS_ldiaxIto1g" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLjnV2EeS_ldiaxIto1g" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLj3V2EeS_ldiaxIto1g" visible="false" type="FromRoleLabel" element="_OPlMHHV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLkHV2EeS_ldiaxIto1g" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLkXV2EeS_ldiaxIto1g" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLknV2EeS_ldiaxIto1g" type="ToQualifierLabel" element="_OPlMH3V2EeS_ldiaxIto1g">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_OPlLk3V2EeS_ldiaxIto1g" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLlHV2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLlXV2EeS_ldiaxIto1g" type="FromQualifierLabel" element="_OPlMHHV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_OPlLlnV2EeS_ldiaxIto1g" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLl3V2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLmHV2EeS_ldiaxIto1g" type="ToConstraintLabel" element="_OPlMH3V2EeS_ldiaxIto1g">
+            <children xmi:type="notation:ListCompartment" xmi:id="_OPlLmXV2EeS_ldiaxIto1g" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLmnV2EeS_ldiaxIto1g" y="1058"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLm3V2EeS_ldiaxIto1g" type="FromConstraintLabel" element="_OPlMHHV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:ListCompartment" xmi:id="_OPlLnHV2EeS_ldiaxIto1g" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLnXV2EeS_ldiaxIto1g" y="1058"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OPlLnnV2EeS_ldiaxIto1g" points="[-503, 357, -10480, -4489]$[-503, 1666, -10480, -3180]$[8185, 1666, -1792, -3180]$[8185, 5103, -1792, 257]$[8759, 5103, -1218, 257]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OPlLn3V2EeS_ldiaxIto1g" id="(0.9663230240549828,0.8479630407391853)"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_OPlLoHV2EeS_ldiaxIto1g" element="_OPlMInV2EeS_ldiaxIto1g" source="_OPklTHV2EeS_ldiaxIto1g" target="_OPlLK3V2EeS_ldiaxIto1g" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLoXV2EeS_ldiaxIto1g" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLonV2EeS_ldiaxIto1g" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLo3V2EeS_ldiaxIto1g" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPlLpHV2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLpXV2EeS_ldiaxIto1g" visible="false" type="ToMultiplicityLabel" element="_OPlMJnV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLpnV2EeS_ldiaxIto1g" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLp3V2EeS_ldiaxIto1g" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLqHV2EeS_ldiaxIto1g" visible="false" type="ToRoleLabel" element="_OPlMJnV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLqXV2EeS_ldiaxIto1g" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLqnV2EeS_ldiaxIto1g" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLq3V2EeS_ldiaxIto1g" visible="false" type="FromMultiplicityLabel" element="_OPlMI3V2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLrHV2EeS_ldiaxIto1g" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLrXV2EeS_ldiaxIto1g" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLrnV2EeS_ldiaxIto1g" visible="false" type="FromRoleLabel" element="_OPlMI3V2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLr3V2EeS_ldiaxIto1g" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLsHV2EeS_ldiaxIto1g" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLsXV2EeS_ldiaxIto1g" type="ToQualifierLabel" element="_OPlMJnV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_OPlLsnV2EeS_ldiaxIto1g" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLs3V2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLtHV2EeS_ldiaxIto1g" type="FromQualifierLabel" element="_OPlMI3V2EeS_ldiaxIto1g">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_OPlLtXV2EeS_ldiaxIto1g" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLtnV2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLt3V2EeS_ldiaxIto1g" type="ToConstraintLabel" element="_OPlMJnV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:ListCompartment" xmi:id="_OPlLuHV2EeS_ldiaxIto1g" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLuXV2EeS_ldiaxIto1g" y="1058"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLunV2EeS_ldiaxIto1g" type="FromConstraintLabel" element="_OPlMI3V2EeS_ldiaxIto1g">
+            <children xmi:type="notation:ListCompartment" xmi:id="_OPlLu3V2EeS_ldiaxIto1g" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLvHV2EeS_ldiaxIto1g" y="1058"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OPlLvXV2EeS_ldiaxIto1g" points="[-232, 1140, -4602, -4720]$[-232, 2889, -4602, -2971]$[1518, 2889, -2852, -2971]$[1518, 4082, -2852, -1778]$[2558, 4082, -1812, -1778]$[2558, 5807, -1812, -53]$[3052, 5807, -1318, -53]"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_OPlLvnV2EeS_ldiaxIto1g" element="_OPlMKXV2EeS_ldiaxIto1g" source="_OPklTHV2EeS_ldiaxIto1g" target="_OPlLM3V2EeS_ldiaxIto1g" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLv3V2EeS_ldiaxIto1g" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLwHV2EeS_ldiaxIto1g" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLwXV2EeS_ldiaxIto1g" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPlLwnV2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLw3V2EeS_ldiaxIto1g" visible="false" type="ToMultiplicityLabel" element="_OPlMLXV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLxHV2EeS_ldiaxIto1g" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLxXV2EeS_ldiaxIto1g" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLxnV2EeS_ldiaxIto1g" visible="false" type="ToRoleLabel" element="_OPlMLXV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLx3V2EeS_ldiaxIto1g" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLyHV2EeS_ldiaxIto1g" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLyXV2EeS_ldiaxIto1g" visible="false" type="FromMultiplicityLabel" element="_OPlMKnV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLynV2EeS_ldiaxIto1g" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLy3V2EeS_ldiaxIto1g" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLzHV2EeS_ldiaxIto1g" visible="false" type="FromRoleLabel" element="_OPlMKnV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlLzXV2EeS_ldiaxIto1g" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlLznV2EeS_ldiaxIto1g" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlLz3V2EeS_ldiaxIto1g" type="ToQualifierLabel" element="_OPlMLXV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_OPlL0HV2EeS_ldiaxIto1g" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlL0XV2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlL0nV2EeS_ldiaxIto1g" type="FromQualifierLabel" element="_OPlMKnV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_OPlL03V2EeS_ldiaxIto1g" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlL1HV2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlL1XV2EeS_ldiaxIto1g" type="ToConstraintLabel" element="_OPlMLXV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:ListCompartment" xmi:id="_OPlL1nV2EeS_ldiaxIto1g" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlL13V2EeS_ldiaxIto1g" y="1058"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlL2HV2EeS_ldiaxIto1g" type="FromConstraintLabel" element="_OPlMKnV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:ListCompartment" xmi:id="_OPlL2XV2EeS_ldiaxIto1g" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlL2nV2EeS_ldiaxIto1g" y="1058"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OPlL23V2EeS_ldiaxIto1g" points="[-88, 1186, -8431, -9373]$[-88, 9877, -8431, -682]$[4939, 9877, -3404, -682]$[4939, 10067, -3404, -492]$[7747, 10067, -596, -492]"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_OPlL3HV2EeS_ldiaxIto1g" element="_OPlyIHV2EeS_ldiaxIto1g" source="_OPklTHV2EeS_ldiaxIto1g" target="_OPlLO3V2EeS_ldiaxIto1g" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlL3XV2EeS_ldiaxIto1g" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlL3nV2EeS_ldiaxIto1g" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlL33V2EeS_ldiaxIto1g" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPlL4HV2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlL4XV2EeS_ldiaxIto1g" visible="false" type="ToMultiplicityLabel" element="_OPlyJHV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlL4nV2EeS_ldiaxIto1g" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlL43V2EeS_ldiaxIto1g" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlL5HV2EeS_ldiaxIto1g" visible="false" type="ToRoleLabel" element="_OPlyJHV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlL5XV2EeS_ldiaxIto1g" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlL5nV2EeS_ldiaxIto1g" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlL53V2EeS_ldiaxIto1g" visible="false" type="FromMultiplicityLabel" element="_OPlyIXV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlL6HV2EeS_ldiaxIto1g" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlL6XV2EeS_ldiaxIto1g" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlL6nV2EeS_ldiaxIto1g" visible="false" type="FromRoleLabel" element="_OPlyIXV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OPlL63V2EeS_ldiaxIto1g" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlL7HV2EeS_ldiaxIto1g" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlL7XV2EeS_ldiaxIto1g" type="ToQualifierLabel" element="_OPlyJHV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_OPlL7nV2EeS_ldiaxIto1g" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlL73V2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlL8HV2EeS_ldiaxIto1g" type="FromQualifierLabel" element="_OPlyIXV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_OPlL8XV2EeS_ldiaxIto1g" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlL8nV2EeS_ldiaxIto1g" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlL83V2EeS_ldiaxIto1g" type="ToConstraintLabel" element="_OPlyJHV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:ListCompartment" xmi:id="_OPlL9HV2EeS_ldiaxIto1g" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlL9XV2EeS_ldiaxIto1g" y="1058"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_OPlL9nV2EeS_ldiaxIto1g" type="FromConstraintLabel" element="_OPlyIXV2EeS_ldiaxIto1g">
+            <children xmi:type="notation:ListCompartment" xmi:id="_OPlL93V2EeS_ldiaxIto1g" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OPlL-HV2EeS_ldiaxIto1g" y="1058"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OPlL-XV2EeS_ldiaxIto1g" points="[245, 908, -12379, -1467]$[5768, 908, -6856, -1467]$[5768, 1595, -6856, -780]$[11703, 1595, -921, -780]$[11703, 1900, -921, -475]"/>
+        </edges>
+      </contents>
+    </eAnnotations>
+    <packageImport xmi:id="_OPlL-nV2EeS_ldiaxIto1g">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_OPlL-3V2EeS_ldiaxIto1g" name="Auteur"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_OPlL_HV2EeS_ldiaxIto1g" name="LDVH" useCase="_OPlL_nV2EeS_ldiaxIto1g _OPlMAHV2EeS_ldiaxIto1g _OPlMAnV2EeS_ldiaxIto1g _OPlMBHV2EeS_ldiaxIto1g _OPlMBnV2EeS_ldiaxIto1g _OPlMCHV2EeS_ldiaxIto1g">
+      <ownedComment xmi:id="_OPlL_XV2EeS_ldiaxIto1g" annotatedElement="_OPlL_HV2EeS_ldiaxIto1g">
+        <body>&lt;p>&lt;span style=&quot;font-family:;&quot;>&lt;/span>&lt;/p></body>
+      </ownedComment>
+      <ownedUseCase xmi:id="_OPlL_nV2EeS_ldiaxIto1g" name="DefinirSection" subject="_OPlL_HV2EeS_ldiaxIto1g">
+        <ownedComment xmi:id="_OPlL_3V2EeS_ldiaxIto1g" annotatedElement="_OPlL_nV2EeS_ldiaxIto1g">
+          <body>&lt;p>&lt;u>&lt;span style=&quot;color:#ff0000;&quot;>&lt;b>&lt;span style=&quot;font-size:20pt;&quot;>Fiche Détaillée:&lt;/span>&lt;/b>&lt;/span>&lt;/u>&lt;/p>&lt;p>&lt;u>&lt;span style=&quot;font-size:11pt;color:#ff0000;&quot;>&lt;b>Titre: DéfinirSection&lt;/b>&lt;/span>&lt;/u>&lt;/p>&lt;p>Acteur: Auteur&lt;/p>&lt;p>Hypothèse: aucune&lt;/p>&lt;p>Pré: Un livre a été créé (cf use case créerAventure) et chargé (cf use case&lt;/p>&lt;p>chargerLivre).&lt;/p>&lt;p>Post: Une nouvelle section a été définie. Elle est visible dans l'interface&lt;/p>&lt;p>graphique comme un noeud.&lt;/p>&lt;p>Scénario:&lt;/p>&lt;p>1. L'auteur choisit l'option &quot;Définir Section&quot;&lt;/p>&lt;p>2. Le système affiche la page de description d'une section comportant une&lt;/p>&lt;p>zone de saisie de texte&lt;/p>&lt;p>3. L'auteur saisit le texte de la section&lt;/p>&lt;p>4. L'auteur valide&lt;/p>&lt;p>5. Le système enregistre les informations et affiche une confirmation&lt;/p>&lt;p>Exception E1: Annulation utilisateur&lt;/p>&lt;p>En SN2 ou SN3 ou SN4 l'utilisateur peut annuler, retour à&lt;/p>&lt;p>l'interface principale&lt;/p>&lt;p>Titre: genererHTML&lt;/p>&lt;p>Acteur: Auteur&lt;/p>&lt;p>Hypothèse: aucune&lt;/p>&lt;p>Pré: Le livre précédemment sauvegardé ou créé a été chargé (Le livre doit comporter au minimum 2 sections et un enchainement)&lt;/p>&lt;p>Post: La version HTMl du livre a été générée.&lt;/p>&lt;p>Scénario:&lt;/p>&lt;p>1. L'auteur choisit l'option &quot;Générer HTML&quot;&lt;/p>&lt;p>2. Le système fait appel à la classe s'occupant de la génération d'une version HTML en lui fournissant l'emplacement du livre récupéré par lui même.&lt;/p>&lt;p>3. L'auteur valide&lt;/p>&lt;p>4. Le système génére la version HTML du livre.&lt;/p>&lt;p>Exception E1: Annulation utilisateur&lt;/p>&lt;p>En SN1 ou SN3 l'utilisateur peut annuler, retour à l'interface&lt;/p>&lt;p>principale&lt;/p>&lt;p>&lt;b>&lt;span style=&quot;font-size:20pt;color:#1e90ff;&quot;>&lt;u>Test de validation :&lt;/u>&lt;/span>&lt;/b>&lt;/p>&lt;p>&lt;b>&lt;span style=&quot;font-size:11pt;color:#1e90ff;&quot;>&lt;u>TV04: Test nominal section S1&lt;/u>&lt;/span>&lt;/b>&lt;/p>&lt;p>Contexte: L'aventure TEST1 a été créée (TV03) ou chargée (TV02)&lt;/p>&lt;p>Entrées: texte: &quot;Un château fort, édifié par nos ancêtres ... Tu es pris,&lt;/p>&lt;p>                 soudain, d'un besoin pressant.&quot;&lt;/p>&lt;p>Scénario:&lt;/p>&lt;p>  1. L'auteur sélectionne l'action &quot;ajouter section&quot;&lt;/p>&lt;p>  2. Il saisit le texte &quot;Un château fort, édifié par nos ancêtres ... Tu es&lt;/p>&lt;p>     pris, soudain, d'un besoin pressant.&quot;&lt;/p>&lt;p>  3. Il valide&lt;/p>&lt;p>Résulat attendu: le système affiche une confirmation et créé une section&lt;/p>&lt;p>Moyen de Vérification: visuel pour la confirmation, l'enchainement doit être&lt;/p>&lt;p>                       visible comme un noeud du graphe dans&lt;/p>&lt;p>                       l'interface graphique&lt;/p>&lt;p>&lt;u>&lt;b>&lt;span style=&quot;color:#1e90ff;&quot;>TV05: Test nominal section S2&lt;/span>&lt;/b>&lt;/u>&lt;/p>&lt;p>Contexte: L'aventure TEST1 a été c&lt;span style=&quot;font-family:DejaVu Sans Mono;&quot;>&lt;/span>réée (TV03) ou chargée (TV02)&lt;/p>&lt;p>Entrées: texte: &quot;Après toutes ces activités, il est fort naturel qu'un besoin&lt;/p>&lt;p>                 pressant se fasse sentir à un moment ou un autre. Eh bien, ce&lt;/p>&lt;p>                 moment est venu ... Un sanglier massif et hirsute te jauge ...&lt;/p>&lt;p>                 Tu fais face et te prépare à te défendre. Non mais ...&quot;&lt;/p>&lt;p>Scénario:&lt;/p>&lt;p>  1. L'auteur sélectionne l'action &quot;ajouter section&quot;&lt;/p>&lt;p>  2. Il saisit le texte &quot;Après toutes ces activités, il est fort naturel qu'un&lt;/p>&lt;p>     besoin pressant se fasse sentir à un moment ou un autre. Eh bien, ce &lt;/p>&lt;p>     moment est venu ... Un sanglier massif et hirsute te jauge ... Tu fais face et te prépare à te défendre. Non mais ...&quot;&lt;/p>&lt;p>  3. Il valide&lt;/p>&lt;p>Résulat attendu: le système affiche une confirmation et créé une section&lt;/p>&lt;p>Moyen de Vérification: visuel pour la confirmation, l'enchainement doit être&lt;/p>&lt;p>                       visible comme un noeud du graphe dans l'interface&lt;/p>&lt;p>                       graphique&lt;/p>&lt;p>&lt;/p>&lt;p>&lt;/p></body>
+        </ownedComment>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_OPlMAHV2EeS_ldiaxIto1g" name="CreerAventure" subject="_OPlL_HV2EeS_ldiaxIto1g">
+        <ownedComment xmi:id="_OPlMAXV2EeS_ldiaxIto1g" annotatedElement="_OPlMAHV2EeS_ldiaxIto1g">
+          <body>&lt;h5>&lt;u>&lt;span style=&quot;color:#ff0000;&quot;>&lt;b>&lt;span style=&quot;font-size:20pt;&quot;>Fiche Détaillée:&lt;/span>&lt;/b>&lt;/span>&lt;/u>&lt;/h5>&lt;p>&lt;u>&lt;span style=&quot;font-size:11pt;color:#ff0000;&quot;>&lt;b>Titre: CreerAventure&lt;/b>&lt;/span>&lt;/u>&lt;/p>&lt;p>Titre: creerAventure&lt;/p>&lt;p>Acteur: Auteur&lt;/p>&lt;p>Hypothèse: aucune&lt;/p>&lt;p>Pré: aucune&lt;/p>&lt;p>Post: Un nouveau livre a été créé&lt;/p>&lt;p>Scénario:&lt;/p>&lt;p>1. L'auteur choisit l'option &quot;Créer Aventure&quot;&lt;/p>&lt;p>2. Le système affiche la page de description d'une aventure comportant une&lt;/p>&lt;p>zone de saisie de texte.&lt;/p>&lt;p>3. L'auteur saisit le titre de l'aventure&lt;/p>&lt;p>4. Le système vérifie que l'aventure n'existe pas déjà dans le répertoire de&lt;/p>&lt;p>travail de l'application&lt;/p>&lt;p>5. Le système affiche une confirmation d'unicité du nom de l'aventure en&lt;/p>&lt;p>cours de création&lt;/p>&lt;p>6. L'auteur valide&lt;/p>&lt;p>7. Le système enregistre les informations et affiche une confirmation&lt;/p>&lt;p>Alternative A1: Le titre n'est pas unique (en SN4)&lt;/p>&lt;p>A1.1 Le système affiche un message utilisateur le notifiant de la non-unicité&lt;/p>&lt;p>du titre&lt;/p>&lt;p>A1.2 Retour en SN3&lt;/p>&lt;p>Exception E1: Annulation utilisateur&lt;/p>&lt;p>En SN2 ou SN3 ou SN6 l'utilisateur peut annuler, retour à l'interface&lt;/p>&lt;p>principale&lt;/p>&lt;p>&lt;b>&lt;span style=&quot;font-size:20pt;color:#1e90ff;&quot;>&lt;u>Test de validation :&lt;/u>&lt;/span>&lt;/b>&lt;/p>&lt;p>&lt;b>&lt;span style=&quot;font-size:20pt;color:#1e90ff;&quot;>&lt;u>TV03: Test nominal aventure&lt;/u>&lt;/span>&lt;/b>&lt;/p>&lt;p>Contexte: aucun&lt;/p>&lt;p>Entrée: titre: &quot;TEST1&quot;&lt;/p>&lt;p>Scénario:&lt;/p>&lt;p>  1. L'auteur choisit l'action &quot;créer aventure&quot;&lt;/p>&lt;p>  2. Il saisit le titre &quot;TEST1&quot;&lt;/p>&lt;p>  3. Il valide&lt;/p>&lt;p>Résultat attendu: le système affiche une confirmation et créé une aventure&lt;/p>&lt;p>Moyen de Vérification: visuel pour la confirmation&lt;/p>&lt;p>&lt;/p></body>
+        </ownedComment>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_OPlMAnV2EeS_ldiaxIto1g" name="DefinirEnchainement" subject="_OPlL_HV2EeS_ldiaxIto1g">
+        <ownedComment xmi:id="_OPlMA3V2EeS_ldiaxIto1g" annotatedElement="_OPlMAnV2EeS_ldiaxIto1g">
+          <body>&lt;p>&lt;u>&lt;span style=&quot;color:#ff0000;&quot;>&lt;b>&lt;span style=&quot;font-size:20pt;&quot;>Fiche Détaillée:&lt;/span>&lt;/b>&lt;/span>&lt;/u>&lt;/p>&lt;p>&lt;span style=&quot;color:#ff0000;&quot;>&lt;u>&lt;b>Titre: definirEnchainement&lt;/b>&lt;/u>&lt;/span>&lt;/p>&lt;p>Acteur: Auteur&lt;/p>&lt;p>Hypothèse: aucune&lt;/p>&lt;p>Pré: Un livre a été créé (cf use case créerAventure) Il existe au moins deux&lt;/p>&lt;p>sections (cf use case definirSection).&lt;/p>&lt;p>Post: Un nouvel enchainement a été defini. Il est visible dans l'interface&lt;/p>&lt;p>graphique comme un arc liant la source à la cible.&lt;/p>&lt;p>Scénario:&lt;/p>&lt;p>1. L'auteur sélectionne une section dans l'interface graphique (la source)&lt;/p>&lt;p>2. L'auteur choisit l'option &quot;DéfinirEnchainement&quot;&lt;/p>&lt;p>3. Le système affiche la page de description d'un enchainement comportant&lt;/p>&lt;p>une zone de saisie de texte et une liste déroulante des sections déjà&lt;/p>&lt;p>existantes&lt;/p>&lt;p>4. L'auteur saisit le texte de l'enchainement et selectionne dans la liste&lt;/p>&lt;p>la section cible de l'enchainement&lt;/p>&lt;p>5. L'auteur valide&lt;/p>&lt;p>6. Le système enregistre les informations et affiche une confirmation&lt;/p>&lt;p>Alternatives A1: spécifier conditions&lt;/p>&lt;p>En SN4, l'auteur peut sélectionner l'action&lt;/p>&lt;p>&quot;Editer conditions&quot;&lt;/p>&lt;p>A1.1 le système affiche la liste des objets définis dans cette&lt;/p>&lt;p>aventure et en surbrillance ceux qui sont déjà attachés à&lt;/p>&lt;p>cet enchainement&lt;/p>&lt;p>A1.2 L'auteur en sélectionne ou désélectionne un ou plusieurs et&lt;/p>&lt;p>valide&lt;/p>&lt;p>A1.3 Le système enregistre la nouvelle sélection, retour en SN4&lt;/p>&lt;p>A2: Problème de saisie&lt;/p>&lt;p>En SN6, si la source et la cible de l'enchainement sont la même&lt;/p>&lt;p>section, le système un message indiquant la nature du problème.&lt;/p>&lt;p>Retour en SN4&lt;/p>&lt;p>Exception E1: Annulation utilisateur&lt;/p>&lt;p>En SN3 ou SN4 ou SN5 l'utilisateur peut annuler, retour à&lt;/p>&lt;p>l'interface principale&lt;/p>&lt;p>&lt;/p>&lt;p>&lt;b>&lt;span style=&quot;font-size:20pt;color:#1e90ff;&quot;>&lt;u>Test de validation :&lt;/u>&lt;/span>&lt;/b>&lt;/p>&lt;p>&lt;b>&lt;span style=&quot;font-size:20pt;color:#1e90ff;&quot;>&lt;u>TV06: Test nominal enchainement&lt;/u>&lt;/span>&lt;/b>&lt;/p>&lt;p>Contexte: L'aventure TEST1 a été créée (TV03). Les sections S1 et S2 ont été&lt;/p>&lt;p>          créées (TV04 et TV05)&lt;/p>&lt;p>Entrées: source S1, destination S2, &quot;CléS1-S2&quot;&lt;/p>&lt;p>Scénario:&lt;/p>&lt;p>  1. L'auteur sélectionne la section S1&lt;/p>&lt;p>  2. Il sélectionne l'action &quot;ajouter enchainement&quot;&lt;/p>&lt;p>  3. Il positionne le sélecteur de destination sur S2&lt;/p>&lt;p>  4. Il saisit le texte &quot;CléS1-S2&quot;&lt;/p>&lt;p>  5. Il valide&lt;/p>&lt;p>Résulat attendu: le système affiche une confirmation et créé un enchainement&lt;/p>&lt;p>Moyen de Vérification: visuel pour la confirmation, l'enchainement doit être&lt;/p>&lt;p>                       visible comme un arc du graphe liant S1 et S2 dans&lt;/p>&lt;p>                       l'interface graphique&lt;/p>&lt;p>&lt;/p></body>
+        </ownedComment>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_OPlMBHV2EeS_ldiaxIto1g" name="GenererHTML" subject="_OPlL_HV2EeS_ldiaxIto1g">
+        <ownedComment xmi:id="_OPlMBXV2EeS_ldiaxIto1g" annotatedElement="_OPlMBHV2EeS_ldiaxIto1g">
+          <body>&lt;p>&lt;u>&lt;span style=&quot;color:#ff0000;&quot;>&lt;b>&lt;span style=&quot;font-size:20pt;&quot;>Fiche Détaillée:&lt;/span>&lt;/b>&lt;/span>&lt;/u>&lt;/p>&lt;p>&lt;b>&lt;u>&lt;span style=&quot;color:#ff0000;&quot;>Titre: genererHTML&lt;/span>&lt;/u>&lt;/b>&lt;/p>&lt;p>Acteur: Auteur&lt;/p>&lt;p>Hypothèse: aucune&lt;/p>&lt;p>Pré: Le livre précédemment sauvegardé ou créé a été chargé (Le livre doit comporter au minimum 2 sections et un enchainement)&lt;/p>&lt;p>Post: La version HTMl du livre a été générée.&lt;/p>&lt;p>Scénario:&lt;/p>&lt;p>1. L'auteur choisit l'option &quot;Générer HTML&quot;&lt;/p>&lt;p>2. Le système fait appel à la classe s'occupant de la génération d'une version HTML en lui fournissant l'emplacement du livre récupéré par lui même.&lt;/p>&lt;p>3. L'auteur valide&lt;/p>&lt;p>4. Le système génére la version HTML du livre.&lt;/p>&lt;p>Exception E1: Annulation utilisateur&lt;/p>&lt;p>En SN1 ou SN3 l'utilisateur peut annuler, retour à l'interface&lt;/p>&lt;p>principale&lt;/p>&lt;p>&lt;b>&lt;span style=&quot;font-size:20pt;color:#1e90ff;&quot;>&lt;u>Test de validation :&lt;/u>&lt;/span>&lt;/b>&lt;/p>&lt;p>&lt;b>&lt;span style=&quot;font-size:12pt;color:#1e90ff;&quot;>&lt;u>TV08: Test nominal de generation de version HTML du livre &lt;/u>&lt;/span>&lt;/b>&lt;/p>&lt;p>Contexte: L'aventure TEST1 a été créée (TV03).&lt;/p>&lt;p>                  Des sections et des enchainements ont été créés (TV05 et TV06)&lt;/p>&lt;p>Entrées: Nom de l'aventure : &quot;TEST1&quot;&lt;/p>&lt;p>Scénario:&lt;/p>&lt;p>  1. L'auteur sélectionne l'option &quot;Génération HTML&quot;&lt;/p>&lt;p>  2. L'auteur saisie le nom de l'aventure &quot;TEST1&quot;&lt;/p>&lt;p>  3. L'auteur valide&lt;/p>&lt;p>Résultat attendu: le système affiche une confirmation et créé une version HTML &lt;/p>&lt;p>Moyen de Vérification: Visuel pour la confirmation et pour l'affichage de la version HTML &lt;/p>&lt;p>                      &lt;/p>&lt;p>&lt;/p></body>
+        </ownedComment>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_OPlMBnV2EeS_ldiaxIto1g" name="ChargerLivre" subject="_OPlL_HV2EeS_ldiaxIto1g">
+        <ownedComment xmi:id="_OPlMB3V2EeS_ldiaxIto1g" annotatedElement="_OPlMBnV2EeS_ldiaxIto1g">
+          <body>&lt;p>&lt;u>&lt;span style=&quot;color:#ff0000;&quot;>&lt;b>&lt;span style=&quot;font-size:20pt;&quot;>Fiche Détaillée:&lt;/span>&lt;/b>&lt;/span>&lt;/u>&lt;/p>&lt;p>&lt;u>&lt;span style=&quot;color:#ff0000;&quot;>&lt;b>&lt;span style=&quot;font-size:11pt;&quot;>Titre: chargerLivre&lt;/span>&lt;/b>&lt;/span>&lt;/u>&lt;/p>&lt;p>Titre: chargerLivre&lt;/p>&lt;p>Acteur: Auteur&lt;/p>&lt;p>Hypothèse: aucune&lt;/p>&lt;p>Pré: Le livre a précédemment été sauvegardé&lt;/p>&lt;p>Post: Le livre a été chargé et s'ouvre sur son graphe complet&lt;/p>&lt;p>Scénario:&lt;/p>&lt;p>1. L'auteur choisit l'option &quot;Charger Livre&quot;&lt;/p>&lt;p>2. Le système ouvre l'Explorateur de fichiers&lt;/p>&lt;p>3. L'auteur sélectionne l'aventure qu'il souhaite éditer&lt;/p>&lt;p>4. L'auteur valide&lt;/p>&lt;p>5. Le système enregistre les informations et affiche une confirmation&lt;/p>&lt;p>Exception E1: Annulation utilisateur&lt;/p>&lt;p>En SN3 ou SN4 l'utilisateur peut annuler, retour à l'interface&lt;/p>&lt;p>principale&lt;/p>&lt;p>&lt;b>&lt;span style=&quot;font-size:20pt;color:#1e90ff;&quot;>&lt;u>Test de validation :&lt;/u>&lt;/span>&lt;/b>&lt;/p>&lt;p>&lt;b>&lt;span style=&quot;font-size:11pt;color:#1e90ff;&quot;>&lt;u>TV02: Test nominal livre&lt;/u>&lt;/span>&lt;/b>&lt;b>&lt;span style=&quot;font-size:11pt;color:#1e90ff;&quot;>&lt;u>&lt;/u>&lt;/span>&lt;/b>&lt;/p>&lt;p>Contexte: le livre a précédemment été sauvegardé&lt;/p>&lt;p>Entrée: titre: &quot;TEST1&quot;&lt;/p>&lt;p>Scénario:&lt;/p>&lt;p>1. L'auteur sélectionne l'action &quot;charger livre&quot;&lt;/p>&lt;p>2. Il choisit l'aventure qu'il souhaite charger&lt;/p>&lt;p>3. Il valide&lt;/p>&lt;p>Résultat attendu: le système charge le livre et affiche son graphe complet&lt;/p>&lt;p>Moyen de Vérification: visuel&lt;/p>&lt;p>&lt;/p></body>
+        </ownedComment>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_OPlMCHV2EeS_ldiaxIto1g" name="GenererVersionImprimable" subject="_OPlL_HV2EeS_ldiaxIto1g">
+        <ownedComment xmi:id="_OPlMCXV2EeS_ldiaxIto1g" annotatedElement="_OPlMCHV2EeS_ldiaxIto1g">
+          <body>&lt;p>&lt;u>&lt;span style=&quot;color:#ff0000;&quot;>&lt;b>&lt;span style=&quot;font-size:20pt;&quot;>Fiche Détaillée:&lt;/span>&lt;/b>&lt;/span>&lt;/u>&lt;/p>&lt;p>&lt;b>&lt;u>&lt;span style=&quot;color:#ff0000;&quot;>Titre: genererVersionImprimable&lt;/span>&lt;/u>&lt;/b>&lt;/p>&lt;p>Acteur: Auteur&lt;/p>&lt;p>Hypothèse: aucune&lt;/p>&lt;p>Pré: Le livre précédemment sauvegardé ou créé a été chargé (Le livre doit comporter au minimum 2 sections et un enchainement)&lt;/p>&lt;p>Post: La version imprimable du livre a été générée.&lt;/p>&lt;p>Scénario:&lt;/p>&lt;p>1. L'auteur choisit l'option &quot;Générer Version Imprimable&quot;&lt;/p>&lt;p>2. Le système fait appel à la classe s'occupant de la génération d'une version imprimable en lui fournissant l'emplacement du livre récupéré par lui même.&lt;/p>&lt;p>3. L'auteur valide&lt;/p>&lt;p>4. Le système génére la version imprimable du livre.&lt;/p>&lt;p>Exception E1: Annulation utilisateur&lt;/p>&lt;p>En SN1 ou SN3 l'utilisateur peut annuler, retour à l'interface&lt;/p>&lt;p>principale&lt;/p>&lt;p>&lt;b>&lt;span style=&quot;font-size:20pt;color:#1e90ff;&quot;>&lt;u>Test de validation :&lt;/u>&lt;/span>&lt;/b>&lt;/p>&lt;p>&lt;b>&lt;span style=&quot;font-size:11pt;color:#1e90ff;&quot;>&lt;u>TV07: Test nominal de generation d'une version imprimable du livre &lt;/u>&lt;/span>&lt;/b>&lt;/p>&lt;p>Contexte: L'aventure TEST1 a été créée (TV03).&lt;/p>&lt;p>                  Des sections et des enchainements ont été créésTV05 et TV06)&lt;/p>&lt;p>Entrées: Nom de l'aventure : &quot;TEST1&quot;&lt;/p>&lt;p>Scénario:&lt;/p>&lt;p>  1. L'auteur sélectionne l'option &quot;Génération Version Imprimable&quot;&lt;/p>&lt;p>  2. L'auteur saisit le nom de l'aventure &quot;TEST1&quot;&lt;/p>&lt;p>  3. L'auteur valide &lt;/p>&lt;p>  &lt;/p>&lt;p>Résultat attendu: le système affiche une confirmation et créé une version imprimable&lt;/p>&lt;p>Moyen de Vérification: Visuel pour la confirmation et pour l'affichage de la version imprimable&lt;/p>&lt;p>&lt;/p></body>
+        </ownedComment>
+      </ownedUseCase>
+      <ownedOperation xmi:id="_OPlMCnV2EeS_ldiaxIto1g" name="creeLivre()"/>
+      <ownedOperation xmi:id="_OPlMC3V2EeS_ldiaxIto1g" name="Valide"/>
+      <ownedOperation xmi:id="_OPlMDHV2EeS_ldiaxIto1g" name="Saisi_Titre(titre_ID : &quot;la lune&quot;)"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_OPlMDXV2EeS_ldiaxIto1g" memberEnd="_OPlMDnV2EeS_ldiaxIto1g _OPlMEXV2EeS_ldiaxIto1g" navigableOwnedEnd="_OPlMDnV2EeS_ldiaxIto1g _OPlMEXV2EeS_ldiaxIto1g">
+      <ownedEnd xmi:id="_OPlMDnV2EeS_ldiaxIto1g" name="definirSection" visibility="private" type="_OPlL_nV2EeS_ldiaxIto1g" association="_OPlMDXV2EeS_ldiaxIto1g">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OPlMD3V2EeS_ldiaxIto1g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OPlMEHV2EeS_ldiaxIto1g" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_OPlMEXV2EeS_ldiaxIto1g" name="actor1" visibility="private" type="_OPlL-3V2EeS_ldiaxIto1g" association="_OPlMDXV2EeS_ldiaxIto1g">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OPlMEnV2EeS_ldiaxIto1g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OPlME3V2EeS_ldiaxIto1g" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_OPlMFHV2EeS_ldiaxIto1g" memberEnd="_OPlMFXV2EeS_ldiaxIto1g _OPlMGHV2EeS_ldiaxIto1g" navigableOwnedEnd="_OPlMFXV2EeS_ldiaxIto1g _OPlMGHV2EeS_ldiaxIto1g">
+      <ownedEnd xmi:id="_OPlMFXV2EeS_ldiaxIto1g" name="creerAventure" visibility="private" type="_OPlMAHV2EeS_ldiaxIto1g" association="_OPlMFHV2EeS_ldiaxIto1g">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OPlMFnV2EeS_ldiaxIto1g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OPlMF3V2EeS_ldiaxIto1g" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_OPlMGHV2EeS_ldiaxIto1g" name="actor1" visibility="private" type="_OPlL-3V2EeS_ldiaxIto1g" association="_OPlMFHV2EeS_ldiaxIto1g">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OPlMGXV2EeS_ldiaxIto1g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OPlMGnV2EeS_ldiaxIto1g" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_OPlMG3V2EeS_ldiaxIto1g" memberEnd="_OPlMHHV2EeS_ldiaxIto1g _OPlMH3V2EeS_ldiaxIto1g" navigableOwnedEnd="_OPlMHHV2EeS_ldiaxIto1g _OPlMH3V2EeS_ldiaxIto1g">
+      <ownedEnd xmi:id="_OPlMHHV2EeS_ldiaxIto1g" name="definirEnchainement" visibility="private" type="_OPlMAnV2EeS_ldiaxIto1g" association="_OPlMG3V2EeS_ldiaxIto1g">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OPlMHXV2EeS_ldiaxIto1g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OPlMHnV2EeS_ldiaxIto1g" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_OPlMH3V2EeS_ldiaxIto1g" name="actor1" visibility="private" type="_OPlL-3V2EeS_ldiaxIto1g" association="_OPlMG3V2EeS_ldiaxIto1g">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OPlMIHV2EeS_ldiaxIto1g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OPlMIXV2EeS_ldiaxIto1g" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_OPlMInV2EeS_ldiaxIto1g" memberEnd="_OPlMI3V2EeS_ldiaxIto1g _OPlMJnV2EeS_ldiaxIto1g" navigableOwnedEnd="_OPlMI3V2EeS_ldiaxIto1g _OPlMJnV2EeS_ldiaxIto1g">
+      <ownedEnd xmi:id="_OPlMI3V2EeS_ldiaxIto1g" name="genererHTML" visibility="private" type="_OPlMBHV2EeS_ldiaxIto1g" association="_OPlMInV2EeS_ldiaxIto1g">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OPlMJHV2EeS_ldiaxIto1g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OPlMJXV2EeS_ldiaxIto1g" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_OPlMJnV2EeS_ldiaxIto1g" name="actor1" visibility="private" type="_OPlL-3V2EeS_ldiaxIto1g" association="_OPlMInV2EeS_ldiaxIto1g">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OPlMJ3V2EeS_ldiaxIto1g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OPlMKHV2EeS_ldiaxIto1g" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_OPlMKXV2EeS_ldiaxIto1g" memberEnd="_OPlMKnV2EeS_ldiaxIto1g _OPlMLXV2EeS_ldiaxIto1g" navigableOwnedEnd="_OPlMKnV2EeS_ldiaxIto1g _OPlMLXV2EeS_ldiaxIto1g">
+      <ownedEnd xmi:id="_OPlMKnV2EeS_ldiaxIto1g" name="editerLivre" visibility="private" type="_OPlMBnV2EeS_ldiaxIto1g" association="_OPlMKXV2EeS_ldiaxIto1g">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OPlMK3V2EeS_ldiaxIto1g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OPlMLHV2EeS_ldiaxIto1g" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_OPlMLXV2EeS_ldiaxIto1g" name="actor1" visibility="private" type="_OPlL-3V2EeS_ldiaxIto1g" association="_OPlMKXV2EeS_ldiaxIto1g">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OPlMLnV2EeS_ldiaxIto1g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OPlML3V2EeS_ldiaxIto1g" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_OPlyIHV2EeS_ldiaxIto1g" memberEnd="_OPlyIXV2EeS_ldiaxIto1g _OPlyJHV2EeS_ldiaxIto1g" navigableOwnedEnd="_OPlyIXV2EeS_ldiaxIto1g _OPlyJHV2EeS_ldiaxIto1g">
+      <ownedEnd xmi:id="_OPlyIXV2EeS_ldiaxIto1g" name="genererVersionImprimable" visibility="private" type="_OPlMCHV2EeS_ldiaxIto1g" association="_OPlyIHV2EeS_ldiaxIto1g">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OPlyInV2EeS_ldiaxIto1g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OPlyI3V2EeS_ldiaxIto1g" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_OPlyJHV2EeS_ldiaxIto1g" name="auteur" visibility="private" type="_OPlL-3V2EeS_ldiaxIto1g" association="_OPlyIHV2EeS_ldiaxIto1g">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OPlyJXV2EeS_ldiaxIto1g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OPlyJnV2EeS_ldiaxIto1g" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <profileApplication xmi:id="_OPlyJ3V2EeS_ldiaxIto1g">
+      <eAnnotations xmi:id="_OPlyKHV2EeS_ldiaxIto1g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_OPlyKXV2EeS_ldiaxIto1g">
+      <eAnnotations xmi:id="_OPlyKnV2EeS_ldiaxIto1g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_OPlyK3V2EeS_ldiaxIto1g">
+      <eAnnotations xmi:id="_OPlyLHV2EeS_ldiaxIto1g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_4OVBUD0TEeKt-L0gyEptgQ?Deployment/Deployment?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+  </uml:Package>
+  <Standard:Subsystem xmi:id="_OPlyLXV2EeS_ldiaxIto1g" base_Component="_OPlL_HV2EeS_ldiaxIto1g"/>
+  <Default:Documentation xmi:id="_OPlyLnV2EeS_ldiaxIto1g" base_Comment="_OPlL_3V2EeS_ldiaxIto1g"/>
+  <Default:Documentation xmi:id="_OPlyL3V2EeS_ldiaxIto1g" base_Comment="_OPlL_XV2EeS_ldiaxIto1g"/>
+  <Default:Documentation xmi:id="_OPlyMHV2EeS_ldiaxIto1g" base_Comment="_OPlMB3V2EeS_ldiaxIto1g"/>
+  <Default:Documentation xmi:id="_OPlyMXV2EeS_ldiaxIto1g" base_Comment="_OPlMAXV2EeS_ldiaxIto1g"/>
+  <Default:Documentation xmi:id="_OPlyMnV2EeS_ldiaxIto1g" base_Comment="_OPlMA3V2EeS_ldiaxIto1g"/>
+  <Default:Documentation xmi:id="_OPlyM3V2EeS_ldiaxIto1g" base_Comment="_OPlMBXV2EeS_ldiaxIto1g"/>
+  <Default:Documentation xmi:id="_OPlyNHV2EeS_ldiaxIto1g" base_Comment="_OPlMCXV2EeS_ldiaxIto1g"/>
+</xmi:XMI>
