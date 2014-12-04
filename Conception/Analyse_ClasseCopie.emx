@@ -393,6 +393,9 @@
         <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LKK6MHV2EeS_ldiaxIto1g" points="[2512, 962, -6369, 830]$[7388, 962, -1493, 830]"/>
       </edges>
     </contents>
+    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_J7UgUHr3EeSgkoLTKpM0XA" type="Component" name="DiagrammeComposant1">
+      <element xsi:nil="true"/>
+    </contents>
   </eAnnotations>
   <packageImport xmi:id="_LKK6MXV2EeS_ldiaxIto1g">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -508,28 +511,15 @@
   <packagedElement xmi:type="uml:Association" xmi:id="_LKLghXV2EeS_ldiaxIto1g" memberEnd="_LKLgZXV2EeS_ldiaxIto1g _LKLgfXV2EeS_ldiaxIto1g"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_LKLghnV2EeS_ldiaxIto1g" memberEnd="_LKLgaHV2EeS_ldiaxIto1g _LKLggHV2EeS_ldiaxIto1g"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_CSs3cHV4EeS_ldiaxIto1g" name="jeux">
-    <eAnnotations xmi:id="_CSusoHV4EeS_ldiaxIto1g" source="uml2.diagrams" references="_CSusoXV4EeS_ldiaxIto1g">
-      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_CSusoXV4EeS_ldiaxIto1g" type="Freeform" name="Informations générales">
-        <element xsi:nil="true"/>
-      </contents>
-      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_5whlkHV4EeS_ldiaxIto1g" type="Class" name="DiagrammeClasse1">
-        <element xsi:nil="true"/>
-      </contents>
-    </eAnnotations>
+    <eAnnotations xmi:id="_CSusoHV4EeS_ldiaxIto1g" source="uml2.diagrams"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_mkQlAHV4EeS_ldiaxIto1g" name="deroulement">
-    <eAnnotations xmi:id="_mkRMEHV4EeS_ldiaxIto1g" source="uml2.diagrams" references="_mkRzIHV4EeS_ldiaxIto1g">
-      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_mkRzIHV4EeS_ldiaxIto1g" type="Freeform" name="Informations générales">
-        <element xsi:nil="true"/>
-      </contents>
-    </eAnnotations>
+    <eAnnotations xmi:id="_mkRMEHV4EeS_ldiaxIto1g" source="uml2.diagrams"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_oT4IgHV4EeS_ldiaxIto1g" name="joueur">
-    <eAnnotations xmi:id="_oT5WoHV4EeS_ldiaxIto1g" source="uml2.diagrams" references="_oT5WoXV4EeS_ldiaxIto1g">
-      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_oT5WoXV4EeS_ldiaxIto1g" type="Freeform" name="Informations générales">
-        <element xsi:nil="true"/>
-      </contents>
-    </eAnnotations>
+    <eAnnotations xmi:id="_oT5WoHV4EeS_ldiaxIto1g" source="uml2.diagrams"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="__oj3EHr2EeSgkoLTKpM0XA" name="Component1"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_D9eo4Hr3EeSgkoLTKpM0XA" name="Interface1"/>
   </packagedElement>
   <profileApplication xmi:id="_LKLgh3V2EeS_ldiaxIto1g">
     <eAnnotations xmi:id="_LKLgiHV2EeS_ldiaxIto1g" source="http://www.eclipse.org/uml2/2.0.0/UML">
